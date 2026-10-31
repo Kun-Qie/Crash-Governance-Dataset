@@ -6,7 +6,7 @@
 
 This repository documents a dataset of **1,200 fatal road crashes in China**. It brings together crash descriptions, temporal and spatial conditions, road design information, cause findings, and available countermeasure records from public sources. The dataset supports research on crash context understanding, cause diagnosis, and safety countermeasure generation.
 
-> **Data access:** The documentation and figures are available in this repository. Dataset files and a permanent download link will be added with the data release.
+> **Release status:** The manuscript is currently under peer review. The authors have publicly released a **60-sample subset** of the dataset for reviewers' reference. The full dataset will be released after the paper is published.
 
 [Overview](#overview) · [Construction](#dataset-construction) · [Data sources](#data-sources) · [Data access](#data-access) · [Citation](#citation)
 
@@ -94,35 +94,9 @@ Not every case contains all fields. Missing information should not be interprete
 
 The dataset underpins **Crash Governance LLM (CGLLM)**, a locally deployed model adapted through domain-specific supervised fine-tuning. The associated study examines the connection between crash diagnosis and targeted countermeasure generation.
 
-### Reference data split
-
-The associated manuscript uses a case-level split:
-
-| Subset | Cases | Share |
-| --- | ---: | ---: |
-| Training | 960 | 80% |
-| Validation | 120 | 10% |
-| Test | 120 | 10% |
-| Total | 1,200 | 100% |
-
-Crashes are split **before** instruction samples are constructed. All reports and task samples associated with the same crash remain in one subset. Split manifests will accompany the data release.
-
-For diagnostic evaluation, official cause labels are targets or evaluation references, not test inputs. Post-crash remedial measures and outcome records must also be excluded from inference inputs. When evaluating the diagnosis-to-countermeasure workflow, use the model's own diagnosis to generate recommendations.
-
 ## Data access
 
-**Release status: dataset upload pending.**
-
-The current repository package contains English and Chinese READMEs, the construction and distribution figures, the original data-source table figure, and a data-directory note. The case records have not yet been included.
-
-The data release will provide:
-
-- Dataset files and a permanent download location.
-- A field dictionary and coding definitions.
-- Case-level split manifests.
-- Release notes, citation information, and a dataset license.
-
-See [data/README.md](data/README.md) for the current data-directory status.
+Data files are available in the [data](data/) folder.
 
 ## Evidence and interpretation
 
@@ -139,7 +113,7 @@ Agreement with documented remedial actions measures consistency with recorded pr
 
 Kun Qie, Jianyu Wang, Xiaoman Xie, Tinghua Yi, and Xu Zheng.
 
-Manuscript in preparation. A paper link and final publication details will be added when available.
+The manuscript is currently under peer review. A paper link and final publication details will be added after publication.
 
 ## Citation
 
@@ -150,7 +124,7 @@ The following is a **provisional dataset citation**. It will be updated when the
   author = {Qie, Kun and Wang, Jianyu and Xie, Xiaoman and Yi, Tinghua and Zheng, Xu},
   title  = {Multidimensional Crash Governance Dataset},
   year   = {2026},
-  note   = {Dataset release and persistent identifier pending}
+  note   = {Full dataset release and persistent identifier pending}
 }
 ```
 
@@ -160,7 +134,7 @@ The dataset license will be specified with the data release. No open-data licens
 
 ## Contact and corrections
 
-Maintainers: **Kun Qie and Jianyu Wang**, Beijing University of Civil Engineering and Architecture.
+Maintainers: **Kun Qie** (qiekun@stu.bucea.edu.cn) and **Jianyu Wang**, Beijing University of Civil Engineering and Architecture.
 
 For questions, source corrections, or case-matching issues, please open an issue in this repository. Include the affected case identifier when available and the supporting source.
 
