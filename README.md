@@ -111,7 +111,7 @@ Agreement with documented remedial actions measures consistency with recorded pr
 
 **A Governance-Oriented Framework for Severe Road Crashes: Bridging Crash Diagnosis and Safety Countermeasures With a Multidimensional Crash Governance Dataset**
 
-Kun Qie, Jianyu Wang, Xiaoman Xie, Tinghua Yi, and Xu Zheng.
+Kun Qie, Jianyu Wang, Xiaoman Xie, Xu Zheng, and Sun, Xu.
 
 The manuscript is currently under peer review. A paper link and final publication details will be added after publication.
 
@@ -121,7 +121,7 @@ The following is a **provisional dataset citation**. It will be updated when the
 
 ```bibtex
 @misc{qie2026crashgovernancedataset,
-  author = {Qie, Kun and Wang, Jianyu and Xie, Xiaoman and Yi, Tinghua and Zheng, Xu},
+  author = {Qie, Kun and Wang, Jianyu and Xie, Xiaoman and Zheng, Xu and Sun, Xu},
   title  = {Multidimensional Crash Governance Dataset},
   year   = {2026},
   note   = {Full dataset release and persistent identifier pending}
