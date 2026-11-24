@@ -111,7 +111,7 @@
 
 **A Governance-Oriented Framework for Severe Road Crashes: Bridging Crash Diagnosis and Safety Countermeasures With a Multidimensional Crash Governance Dataset**
 
-Kun Qie、Jianyu Wang、Xiaoman Xie、Tinghua Yi、Xu Zheng。
+Kun Qie、Jianyu Wang、Xiaoman Xie、Xu Zheng、Xu Sun。
 
 论文目前处于外审阶段。论文发表后将补充论文链接及最终出版信息。
 
@@ -121,7 +121,7 @@ Kun Qie、Jianyu Wang、Xiaoman Xie、Tinghua Yi、Xu Zheng。
 
 ```bibtex
 @misc{qie2026crashgovernancedataset,
-  author = {Qie, Kun and Wang, Jianyu and Xie, Xiaoman and Yi, Tinghua and Zheng, Xu},
+  author = {Qie, Kun and Wang, Jianyu and Xie, Xiaoman and Zheng, Xu and Sun, Xu},
   title  = {Multidimensional Crash Governance Dataset},
   year   = {2026},
   note   = {Full dataset release and persistent identifier pending}
